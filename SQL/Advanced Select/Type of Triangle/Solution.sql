@@ -6,7 +6,7 @@ select
                                                 when A=B or B=C or C=A then 'Isosceles'
                                                 when A!=B and B!=C and C!=A then 'Scalene'
                                              end
-                                             else 'Not A Triangle'
+         else 'Not A Triangle'
     end
 from triangles;    
                                                 
