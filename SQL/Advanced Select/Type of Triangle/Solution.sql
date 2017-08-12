@@ -8,5 +8,4 @@ select
                                              end
          else 'Not A Triangle'
     end
-from triangles;    
-                                                
+from triangles;
